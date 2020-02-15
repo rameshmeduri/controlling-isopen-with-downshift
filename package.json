@@ -1,0 +1,22 @@
+{
+  "name": "controlling-isopen-with-downshift",
+  "version": "1.0.0",
+  "description": "This is an example of how you could control the isOpen state with downshift",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "format": "prettier --write \"src/**/*.{jsx,js,css,json}\""
+  },
+  "dependencies": {
+    "downshift": "^5.0.0",
+    "glamor": "^2.20.40",
+    "glamorous": "^5.0.0",
+    "match-sorter": "^4.0.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "starwars-names": "^1.6.0"
+  }
+}
